@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>菜单</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>嘟豪手做甜點</h1>
+  </header>
+  <div class="container">
+    <div class="menu-item">
+      <span>波蘿大泡芙</span>
+      <span>35</span>
+    </div>
+    <div class="menu-item">
+      <span>小波蘿泡芙</span>
+      <span>20</span>
+    </div>
+    <div class="menu-item">
+      <span>戚風蛋糕</span>
+      <span>25</span>
+    </div>
+    <!-- 在这里添加更多菜单项 -->
+  </div>
+</body>
+</html>
