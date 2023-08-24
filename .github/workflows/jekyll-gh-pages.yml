@@ -1,0 +1,31 @@
+ }
+  .menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>嘟豪手做甜點</h1>
+  </header>
+  <div class="container">
+    <div class="menu-item">
+      <span>波蘿大泡芙</span>
+      <span>35</span>
+    </div>
+    <div class="menu-item">
+      <span>小波蘿泡芙</span>
+      <span>20</span>
+    </div>
+    <div class="menu-item">
+      <span>戚風蛋糕</span>
+      <span>25</span>
+    </div>
+    <!-- 在这里添加更多菜单项 -->
+  </div>
+</body>
+</html>
+
