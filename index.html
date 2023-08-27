@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>菜单</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd4e5;
+  }
+  header {
+    background-color: #ffcc00;
+    color: #ff0000;
+    text-align: center;
+    padding: 1rem;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd4e5; /* 菜单项背景色 */
+  }
+  .menu-item > div {
+    display: flex;
+    align-items: center;
+  }
+  .menu-item span {
+    margin-right: 1rem;
+  }
+  .menu-item-details {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>嘟豪手做甜點</h1>
+  </header>
+  <div class="container">
+    <div class="menu-item">
+      <div>
+        <span style="color: #333;">波蘿大泡芙</span>
+        <span style="color: #cc0000;">35元</span>
+      </div>
+      <div class="menu-item-details">
+       買3個100元  滿300送1顆 滿500元送2顆
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <span style="color: #333;">波蘿小泡芙</span>
+        <span style="color: #cc0000;">20元</span>
+      </div>
+      <div class="menu-item-details">
+       買5顆送1顆   買10顆送2顆 以此類推
+      </div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <span style="color: #333;">葡式蛋塔</span>
+        <span style="color: #cc0000;">35元</span>
+      </div>
+      <div class="menu-item-details">
+        買3個100元  滿300送1顆 滿500元送2顆
+      </div>
+    </div>
+    <!-- 在這裡添加更多菜單項目 -->
+  </div>
+</body>
+</html>
